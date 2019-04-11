@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='ezstr',
-      version='0.1',
+      version='0.2',
       description='No more tostring boilerplate',
       long_description=long_description,
       long_description_content_type='text/markdown',
