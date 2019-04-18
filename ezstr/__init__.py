@@ -10,4 +10,5 @@ def tostr(cls):
         return '{}({})'.format(obj_name, attr)
 
     cls.__str__ = __str__
+    cls.__repr__ = __str__
     return cls
